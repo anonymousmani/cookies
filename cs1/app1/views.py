@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 # Create your views here.
 
-def set(request):
+def setting(request):
     response = render(request, 'app1/set.html')
     response.set_cookie('name', 'brijesh')
     return response
